@@ -4,7 +4,9 @@ import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
+
 public class Test {
+
     private static BlockingQueue<Integer> queue = new ArrayBlockingQueue<>(10);
 
     public static void main(String[] args) throws InterruptedException {
@@ -57,5 +59,9 @@ public class Test {
             }
 
         }
+    }
+
+
+    public Test() {
     }
 }
